@@ -25,13 +25,13 @@ public class BasePage {
 			e.printStackTrace();
 		}
 	}
-
+	
 	public WebElement locateElement(By by, String elementName) {
 
 		try {
 			WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-			SmartWait(1);
-			System.out.println("Successfully clicked on element: " + elementName);
+			SmartWait(2);
+			System.out.println("Successfully Located on element: " + elementName);
 			return element;
 
 		} catch (Exception e) {
