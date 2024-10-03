@@ -9,12 +9,11 @@ import pages.LoginPage;
 public class LoginTest extends BaseTest {
 
 	LoginPage loginpage;
-	HomePage homePage;
+	HomePage homepage;
 
 	@Test(priority = 1, enabled = true, description = "Verify the system's response when attempting to log in without entering credentials.")
-	public void verifyInvestorLoginWithoutCredentials() {
-		loginpage = new LoginPage(driver);
-		loginpage.clickLoginButton();
+	public void verifyInvestorLoginWithoutCredentials() { 
+		loginpage =  new LoginPage(driver).clickLoginButton();
 		Assert.assertTrue(loginpage.getEmptyAlertMessages().getText().equals("Please enter your email and password."),
 				"Alert Messages is not appears correctly");
 	}
@@ -44,10 +43,10 @@ public class LoginTest extends BaseTest {
 	public void verifyInvestorLoginWithvalidCredentials() {
 		loginpage = new LoginPage(driver);
 		loginpage.LoginInvestor();
-		homePage = new HomePage(driver);
-		Assert.assertTrue(homePage.getetanaTrustTextElement().getText().equals("ETANATRUST"), "Etanatrust label text does not match exactly.");
-		Assert.assertTrue(homePage.getdashboardTextElement().getText().equals("DASHBOARD"), "Dashboard label text does not match exactly.");
-		Assert.assertTrue(homePage.getinvestorTextElement().getText().equals("INVESTOR"), "Investor label text does not match exactly.");
+		homepage = new HomePage(driver);
+		Assert.assertTrue(homepage.getetanaTrustTextElement().getText().equals("ETANATRUST"), "Etanatrust label text does not match exactly.");
+		Assert.assertTrue(homepage.getdashboardTextElement().getText().equals("DASHBOARD"), "Dashboard label text does not match exactly.");
+		Assert.assertTrue(homepage.getinvestorTextElement().getText().equals("INVESTOR"), "Investor label text does not match exactly.");
 	}
 	
 	

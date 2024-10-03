@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-30T18:01:49 IST" name="Default suite" finished-at="2024-09-30T18:02:33 IST" duration-ms="44452">
+  <suite started-at="2024-10-03T17:36:30 IST" name="Default suite" finished-at="2024-10-03T17:37:00 IST" duration-ms="29783">
     <groups>
     </groups>
-    <test started-at="2024-09-30T18:01:49 IST" name="Default test" finished-at="2024-09-30T18:02:33 IST" duration-ms="44452">
-      <class name="testcases.LogoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LogoutTest@64da2a7]" started-at="2024-09-30T18:01:49 IST" name="setUp" finished-at="2024-09-30T18:01:54 IST" duration-ms="5530" status="PASS">
+    <test started-at="2024-10-03T17:36:30 IST" name="Default test" finished-at="2024-10-03T17:37:00 IST" duration-ms="29783">
+      <class name="testcases.HomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.HomeTest@32057e6]" started-at="2024-10-03T17:36:30 IST" name="setUp" finished-at="2024-10-03T17:36:39 IST" duration-ms="8662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyInvestorLogoutAction()[pri:1, instance:testcases.LogoutTest@64da2a7]" started-at="2024-09-30T18:01:54 IST" name="verifyInvestorLogoutAction" description="Verify Logout Button Functionality" finished-at="2024-09-30T18:02:08 IST" duration-ms="13923" status="PASS">
+        <test-method signature="verifyNotificationiconanddisplay()[pri:5, instance:testcases.HomeTest@32057e6]" started-at="2024-10-03T17:36:39 IST" name="verifyNotificationiconanddisplay" description="Verify that user click on the Notification icon and see the Notifications displayed." finished-at="2024-10-03T17:36:57 IST" duration-ms="17840" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInvestorLogoutAction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LogoutTest@64da2a7]" started-at="2024-09-30T18:02:08 IST" name="tearDown" finished-at="2024-09-30T18:02:12 IST" duration-ms="3226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LogoutTest@64da2a7]" started-at="2024-09-30T18:02:12 IST" name="setUp" finished-at="2024-09-30T18:02:16 IST" duration-ms="4802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyInvestorGoHomeAction()[pri:2, instance:testcases.LogoutTest@64da2a7]" started-at="2024-09-30T18:02:16 IST" name="verifyInvestorGoHomeAction" description="Verify GoHome Button Functionality" finished-at="2024-09-30T18:02:30 IST" duration-ms="13786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestorGoHomeAction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LogoutTest@64da2a7]" started-at="2024-09-30T18:02:30 IST" name="tearDown" finished-at="2024-09-30T18:02:33 IST" duration-ms="3139" status="PASS">
+        </test-method> <!-- verifyNotificationiconanddisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomeTest@32057e6]" started-at="2024-10-03T17:36:57 IST" name="tearDown" finished-at="2024-10-03T17:37:00 IST" duration-ms="3232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.LogoutTest -->
+      </class> <!-- testcases.HomeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
