@@ -14,12 +14,10 @@ import utilities.ConfigReader;
 
 public class BaseTest {
 	protected WebDriver driver;
-	public Logger logger;   //log4j
-	
+
 	@BeforeMethod
 	void setUp() {
-		logger = LogManager.getLogger(this.getClass());
-		
+
 		String strBrowser = ConfigReader.getPropertyFromKey("browser");
 		System.out.println("'" + strBrowser + "' browser selected for test.");
 
@@ -55,7 +53,7 @@ public class BaseTest {
 		BasePage.SmartWait(3);
 		driver.quit();
 	}
-	
+
 	public static void printMethodName() {
 		String methodName = Thread.currentThread().getStackTrace()[2].getMethodName();
 		System.out.println("Executing method: " + methodName);
