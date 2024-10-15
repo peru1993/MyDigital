@@ -18,6 +18,7 @@ public class LoginPage extends BasePage {
 	}
 
 	// Locators
+	
 	By emailLocator = By.xpath("//input[@type='email']");
 	By passwordLocator = By.xpath("//input[@type='password']");
 	By loginButton = By.xpath("//button[@type='submit']");

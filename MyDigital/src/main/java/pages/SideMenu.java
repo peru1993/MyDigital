@@ -21,7 +21,7 @@ public class SideMenu extends BasePage {
 	}
 
 	public WebElement getmenuName(String MenuName) {
-		return locateElement(By.xpath("//span[text()='" + MenuName + "']"), "EmptyAlertMessages");
+		return locateElement(By.xpath("//span[text()='" + MenuName + "']"), "getmenuName");
 	}
 
 	// click Action

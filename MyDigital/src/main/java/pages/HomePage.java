@@ -65,17 +65,15 @@ public class HomePage extends BasePage {
 		return this;
 	}
 
-
 	public String getdateTimeValue() {
 		WebElement datetimeElement = locateElement(datetimeLocator, "locate_datetime");
 		return datetimeElement.getText();
 	}
-	
+
 	public String getNotificationValue() {
 		WebElement displayElement = locateElement(notificationstatus, "locate_Notification");
 		return displayElement.getText();
 	}
-	
 
 	public List<String> getCurrencyValue() {
 		List<WebElement> spanElement = driver.findElements(currentyLocator);

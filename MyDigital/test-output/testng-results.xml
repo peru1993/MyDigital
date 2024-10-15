@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-03T17:36:30 IST" name="Default suite" finished-at="2024-10-03T17:37:00 IST" duration-ms="29783">
+  <suite started-at="2024-10-15T19:45:24 IST" name="Default suite" finished-at="2024-10-15T19:46:01 IST" duration-ms="36416">
     <groups>
     </groups>
-    <test started-at="2024-10-03T17:36:30 IST" name="Default test" finished-at="2024-10-03T17:37:00 IST" duration-ms="29783">
-      <class name="testcases.HomeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.HomeTest@32057e6]" started-at="2024-10-03T17:36:30 IST" name="setUp" finished-at="2024-10-03T17:36:39 IST" duration-ms="8662" status="PASS">
+    <test started-at="2024-10-15T19:45:24 IST" name="Default test" finished-at="2024-10-15T19:46:01 IST" duration-ms="36416">
+      <class name="testcases.DepositsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DepositsTest@62417a16]" started-at="2024-10-15T19:45:24 IST" name="setUp" finished-at="2024-10-15T19:45:37 IST" duration-ms="12627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNotificationiconanddisplay()[pri:5, instance:testcases.HomeTest@32057e6]" started-at="2024-10-03T17:36:39 IST" name="verifyNotificationiconanddisplay" description="Verify that user click on the Notification icon and see the Notifications displayed." finished-at="2024-10-03T17:36:57 IST" duration-ms="17840" status="PASS">
+        <test-method signature="verifyTableHeader()[pri:8, instance:testcases.DepositsTest@62417a16]" started-at="2024-10-15T19:45:37 IST" name="verifyTableHeader" description="Verify Table Header on the Deposits Page" finished-at="2024-10-15T19:45:58 IST" duration-ms="20530" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNotificationiconanddisplay -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomeTest@32057e6]" started-at="2024-10-03T17:36:57 IST" name="tearDown" finished-at="2024-10-03T17:37:00 IST" duration-ms="3232" status="PASS">
+        </test-method> <!-- verifyTableHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DepositsTest@62417a16]" started-at="2024-10-15T19:45:58 IST" name="tearDown" finished-at="2024-10-15T19:46:01 IST" duration-ms="3220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.HomeTest -->
+      </class> <!-- testcases.DepositsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

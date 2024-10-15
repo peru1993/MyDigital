@@ -71,7 +71,6 @@ public class BasePage {
 		try {
 			WebElement element = wait.until(ExpectedConditions.elementToBeClickable(by));
 			element.clear();
-
 			SmartWait(2); // Default wait after sending keys
 			System.out.println("Successfully sent keys to element: " + elementName);
 		} catch (Exception e) {
